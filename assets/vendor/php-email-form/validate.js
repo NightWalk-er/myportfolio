@@ -1,6 +1,6 @@
 const handleSubmit = (e) => {
   e.preventDefault()
-  let myForm = document.getElementById('pizzaOrder');
+  let myForm = document.getElementById('form-on-submit-message');
   let formData = new FormData(myForm)
   fetch('/', {
     method: 'POST',
